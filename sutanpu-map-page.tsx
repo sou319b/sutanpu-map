@@ -15,25 +15,22 @@ type Group = {
 }
 
 const groups: Group[] = [
-  { name: "1.KAIT VR", location: "K3号館 3306教室", x: 30, y: 40 },
-  { name: "2.ECO推進チーム「みどり」", location: "K3号館 3606教室", x: 35, y: 45 },
-  { name: "3.鷹野研究室", location: "K1号館 806教室", x: 50, y: 30 },
-  { name: "4.生命科学研究室", location: "C6号館 102教室", x: 60, y: 55 },
-  { name: "5.知能モビリティ研究室", location: "C5号館 124教室", x: 70, y: 60 },
-  { name: "6.Life Hackers", location: "C2号館 E204教室", x: 80, y: 40 },
-  { name: "7.山門・鹿野研究室(KAIT Racing)", location: "E6号室 V-07教室", x: 20, y: 70 },
-  { name: "8.応用化学生物学科", location: "E2号館 107教室", x: 40, y: 80 }
+  { name: "1.KAIT VR", location: "K3号館 3階 3306教室", x: 72, y: 88 },
+  { name: "2.ECO推進チーム「みどり」", location: "K3号館 6階 3606教室", x: 75, y: 92 },
+  { name: "3.鷹野研究室", location: "K1号館 8階 806教室", x: 60, y: 87 },
+  { name: "4.生命科学研究室", location: "C6号館 102教室", x: 36, y: 87 },
+  { name: "5.知能モビリティ研究室", location: "C5号館 124教室", x: 26, y: 85 },
+  { name: "6.Life Hackers", location: "C2号館 E204教室", x: 22, y: 70 },
+  { name: "7.山門・鹿野研究室(KAIT Racing)", location: "E6号室 V-07教室", x: 32, y: 48 },
+  { name: "8.応用化学生物学科", location: "E2号館 107教室", x: 36, y: 48 }
 ]
 
 const stampRallyRules = [
-  "各企画を訪れ、スタンプを集めてください。",
-  "スタンプは企画の担当者から直接押印してもらいます。",
-  "全てのスタンプを集めると、景品と交換できます。",
-  "スタンプカードは最初の企画で受け取ってください。",
-  "スタンプラリーの参加は自由です。好きな順序で回ることができます。",
-  "各企画での滞在時間は15分以内を目安にしてください。",
-  "他の参加者に迷惑をかけないようご協力ください。",
-  "ゴミは指定されたゴミ箱に捨ててください。"
+  "パンフレットに載っているスタンプラリー・縁日のスタンプカードを確認！！",
+  "下に載っている研究室・講義室展示をまわろう",
+  "対応するスタンプカードの番号にスタンプを押そう。",
+  "スタンプがたまったら、スタンプカードに書かれている景品交換所で交換！！。",
+  
 ]
 
 export default function Component() {
@@ -44,8 +41,8 @@ export default function Component() {
       <div className="container mx-auto p-4">
         <Card className="w-full max-w-4xl mx-auto mt-8 shadow-lg">
           <CardHeader className="text-center">
-            <CardTitle className="text-3xl font-bold text-blue-800">学園祭スタンプラリー</CardTitle>
-            <CardDescription className="text-lg text-blue-600">キャンパスを探索しよう！</CardDescription>
+            <CardTitle className="text-3xl font-bold text-blue-800">幾徳祭スタンプラリー</CardTitle>
+            <CardDescription className="text-lg text-blue-600">大学をまわって、スタンプを祖いて景品ももらおう！</CardDescription>
           </CardHeader>
           <CardContent>
             <div className="mb-8">
